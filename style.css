@@ -1,0 +1,671 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.yearjourney{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 8px;
+    align-content: center;
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 40px;
+}
+.yearjourney a{
+    color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    align-content: center;
+    padding: 10px;
+    font-weight: 500;
+}
+.navul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    padding-top: 10px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.all-product:after{
+    content: "\25be";
+    color: black;
+    font-size: large;
+}
+#zohologo img{
+    height: 40px;
+    width: auto;
+}
+/* zoho recruit */
+.zoho-recruit{
+   background-color: #5022cb;
+   height: 800px;
+}
+.recruitnav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.recruitnavlist{
+    display: flex;
+}
+.recruitnavlist li{
+    list-style: none;
+}
+.recruitnavlist li a{
+    color: white;
+    padding: 28px;
+    text-decoration: none;
+}
+.recruit-logo img{
+    height: 40px;
+    width: auto;
+}
+.link:after{
+    content: "\25be";
+    color: white;
+}
+/* zoho-recruit-text */
+.zoho-recruit-text{
+    color: white;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 100%;
+}
+.zoho-recruit-text-h1{
+    width: 50%;
+}
+.zoho-recruit-text-h1 h1{
+    font-size: 50px;
+}
+#btn1{
+    padding: 10px;
+}
+#btn2{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+.zoho-recruit-text-h1 p{
+    top: 30px;
+    font-size: larger;
+}
+.video video{
+    justify-content: flex-end;
+}
+/*  */
+.overyears{
+    width: 230px;
+}
+.company{
+    text-align: center;
+    padding: 20px;
+}
+.book{
+    display: flex;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .zoho-clients-left{
+    width: 60%;
+    display: inline-block;
+ }
+ .forbs{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .forbs li{
+    list-style: none;
+ }
+ .forbsimg{
+    background-color: #f5f5f5;
+    align-content: center;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+}
+ .star:before {
+    content: "★★★★★";
+    color: rgb(207, 31, 31);
+ }
+ .zoho-clients-right{
+    width: 340px;
+    margin-left: 20px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    height: 530px;
+    border-radius: 20px;
+ }
+ .clients-right img{
+    height: 160px;
+    width: 260px;
+ }
+ .clients-right p{
+    padding-top: 20px;
+    font-size: large;
+ }
+ .clients-right a{
+    color: rgb(29, 143, 237);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(29, 143, 237);
+
+ }
+ .clients-right span{
+    font-size: 15px;
+ }
+ .second{
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    left: 30px;
+    right: 30px;
+    top: 800px;
+    align-content: center;
+ }
+
+ /*  */
+ .third{
+    padding-top: 600px;
+    margin: 40px;
+ }
+ .thridtext{
+    text-align: center;
+ }
+ .hrteam{
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .internal{
+    border-radius: 5px;
+    height: 300px;
+    width: 550px;
+    background-color: #dcf2fe;
+    align-items: center;
+    display: flex;
+ }
+ .internalimg img{
+    height: auto;
+    width: 200px;
+ }
+ .internal2{
+    border-radius: 5px;
+    width: 550px;
+    height: 300px;
+    background-color: #fcf3e4;
+    align-items: center;
+    display: flex;
+ }
+ .internaltext{
+    padding: 20px;
+ }
+ .internaltext button{
+    border: 1px solid black;
+ }
+ .internalimg2 img{
+    height: 300px;
+    width: 200px;
+ }
+ .forth{
+    margin: 100px;
+    justify-content: center;
+ }
+ .sourcehead{
+    text-align: center;
+    font-size: larger;
+ }
+ .Source-Attract{
+    align-content: center;
+    width: 50%;
+ }
+  .sourcevid{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  .fifth{
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9e5df;
+    justify-content: center;
+    align-content: center;
+  }
+  .fifthtext{
+    align-content: center;
+    padding: 30px;
+    width: 60%;
+  }
+.outlook{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.outlook1{
+    width: 550px;
+    align-content: center;
+    text-align: center;
+}
+.outlook1 ul{
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.outlookul li{
+    list-style: none;
+}
+.outlookul li img{
+    width: 55px;
+    height: 55px;
+}
+.outlook2{
+        width: 500px;
+        align-content: center;
+        text-align: center;
+}
+.outlook2 h1{
+    padding-top: 25px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.outlook2 img{
+    padding-top: 25px;
+}
+.outlook1 h1{
+    font-size: 29px;
+    font-weight: bold;
+}
+.outlook2 a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(39, 220, 214);
+    color: rgb(39, 220, 214);
+}
+.outlook1 a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(39, 220, 214);
+    color: rgb(39, 220, 214);
+}
+.data{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 40px;
+    position: relative;
+    gap: 30px;
+}
+.databox{
+    width: 20%;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+.end-end{
+    height: 300px;
+    background-color: #5022cb;
+    text-align: center;
+    justify-content: center;
+}
+.end-end div{
+    padding-top: 50px;
+    color: white;
+    justify-content: center;
+}
+.end-end div h1{
+    padding-top: 50px;
+}
+.end-end div p{
+    padding-top: 10px;
+}
+/* q&a */
+.qa{
+    margin: 0;
+    width: 100%;
+    padding-top: 90px;
+    height: 540px;
+    justify-content: center;
+    background-color: #34363ef5;
+    color: white;
+    margin-bottom: -3rem;
+}
+.qaul{
+    padding-left: 20%;
+}
+.qaul li i{
+    float: right;
+    color: white;
+}
+.qaul li{
+    padding: 10px;
+    border-bottom: 1px solid white;
+    width: 800px;
+    list-style: none;
+    justify-content: center;
+}
+.qaul li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 90px;
+    color: white;
+}
+/* footer */
+.footers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+.footers div{
+    padding-top: 25px;
+}
+/* socialmedia */
+.socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    align-content: center;
+    text-align: center;
+}
+.socialmedia div{
+    align-content: center;
+    text-align: center;
+}
+/* sia */
+.sia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+.siaimg{
+    text-align: center;
+}
+.bsi img{
+    width: 110px;
+    height: auto;
+}
+/* searchbar */
+.searchbar {
+    margin: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.searchbar input{
+    width: 400px;
+    padding: 10px;
+}
+.searchbar button{
+    padding: 10px;
+    border: 1px solid black;
+}
+/* policy */
+.policy{
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+}
+.policy a{
+    color: black;
+    text-decoration: none;
+}
+.policy p{
+    color: black;
+    padding-top: 10px;
+}
+footer{
+    background-color: #f5f5f5;
+}
+/* hover features */
+.features{
+    z-index: 999;
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    height: 270px;
+    display: none;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.ful h3{ 
+    font-size: larger;
+}
+.ful li{ 
+    list-style: none;
+}
+.link1:hover .features{
+    display: flex;
+}
+/* solution */
+.solution{
+    z-index: 999;
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    height: auto;
+    display: none;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.sul h3{ 
+    font-size: larger;
+}
+.sul li{ 
+    list-style: none;
+}
+.link2:hover .solution{
+    display: flex;
+}
+/* resource */
+.resource{
+    z-index: 999;
+    display: flex;
+    width: auto;
+    padding: 10px;
+    height: auto;
+    display: none;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 2px;
+    right: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.rul li{ 
+    list-style: none;
+}
+.rul li a{ 
+    text-decoration: none;
+    color: black;
+}
+.link3:hover .resource{
+    display: flex;
+}
+
+/* crm */
+.crmnavul{
+    display: flex;
+}
+.crmnavul li{
+    list-style: none;
+    padding: 20px;
+
+}
+.crmnavul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* crm sales */
+
+.crmsales{
+    background-color: black;
+    width: 300px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    height: 400px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.crmsales li{
+    list-style: none;
+    line-height: 40px;
+}
+.crmsales li{
+    text-decoration: none;
+}
+.crmsales li a{
+    text-decoration: none;
+    color: white;
+}
+/*  */
+.crm{
+    display: flex;
+}
+.salesul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    height: 400px;
+    padding: 30px;
+    position: relative;
+}
+.salesli{
+    padding-top: 50px;
+    display: flex;
+    width: 300px;
+    gap: 20px;
+    height: auto;
+}
+.salesli a{
+    text-decoration: none;
+    color: black;
+}
+.salesli img{
+    width: 50px;
+    height: 46px;
+}
+.saleslitext{
+    font-size: large;
+    color: black;
+    font-weight: 400;
+}
+.saleslitext a{
+    font-size: large;
+    color: black;
+    font-weight: 600;
+}
+.saleshead h2{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+}
+.yo{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    z-index: 999;
+}
+.link4:hover .yo{
+    display: block;
+    cursor: pointer;
+}
+
+
+@media (max-width:1000px) {
+    .yearjourney{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .Source-Attract{
+        align-content: center;
+        width: 100%;
+     }
+     .video video{
+        display: none;
+     }
+     .recruitnavlist{
+        display: none;
+     }
+     .second{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+     }
+     .zoho-recruit{
+        height: auto;
+        margin-bottom: 0;
+     }
+     .qaul li{
+        width: 100%;
+    }
+    .book{
+        flex-wrap: wrap;
+    }
+    .fifth{
+        width: 100%;
+        margin: 20px;
+    }
+    .third{
+        padding-top: 20px;
+     }
+     .searchbar input{
+        width: 100%;
+     }
+     .qaul{
+        padding-left: 0;
+     }
+}
+@media (max-width:400px) {
+
+body{
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+}
+
+}
